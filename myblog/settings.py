@@ -25,7 +25,7 @@ SECRET_KEY = 'q#fb!8@ina1#l-^3@ll85gtta7w&4d%mm&jxdsz4#hhi6_sofh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'voodoo-blog.herokuapp.com']
 
 
 # Application definition
@@ -80,8 +80,13 @@ WSGI_APPLICATION = 'myblog.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dc8s88qj96n76r',
+        'USER': 'dipkqpfopmykpw',
+        'PASSWORD': 'ca4a7138eae4512352fa2f550214670a2a830ac8e749c0f6c56df5cc9504c0ef',
+        'HOST': 'ec2-184-72-221-140.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'CONN_MAX_AGE': 500
     }
 }
 
