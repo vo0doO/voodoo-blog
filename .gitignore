@@ -9,5 +9,5 @@ out
 gen
 
 # User files
-!/venv/
-!/staticfiles/
+venv/**
+staticfiles/
