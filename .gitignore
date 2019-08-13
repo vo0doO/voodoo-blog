@@ -5,8 +5,9 @@
 # IntelliJ project files
 .idea
 *.iml
-out
-gen
 
 # User files
 venv/**
+*.pyc
+staticfiles
+myblog/*

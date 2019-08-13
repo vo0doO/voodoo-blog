@@ -1,0 +1,22 @@
+{
+  "name": "voodoo-blog",
+  "description": "A trending curiosity news from me & my friends",
+  "image": "heroku/python",
+  "repository": "https://github.com/vo0doo/voodoo-blog",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "The secret key for the Django application.",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}
