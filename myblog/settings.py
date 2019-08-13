@@ -138,7 +138,7 @@ STATICFILES_DIRS = (
 )
 
 # Обслуживание статических файлов
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Активация Django-heroku
 
