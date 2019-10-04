@@ -5,9 +5,10 @@
 # IntelliJ project files
 .idea
 *.iml
-out
-gen
 
 # User files
-!/venv/
-!/staticfiles/
+venv/**
+*.pyc
+!/.vscode/
+staticfiles
+client/node_modules/
