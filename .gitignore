@@ -9,5 +9,6 @@
 # User files
 venv/**
 *.pyc
+!/.vscode/
 staticfiles
-myblog/*
+client/node_modules/
