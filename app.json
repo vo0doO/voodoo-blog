@@ -1,8 +1,8 @@
 {
-  "name": "voodoo-blog-development",
+  "name": "voodoo-blog",
   "description": "A trending curiosity news from me & my friends",
   "image": "heroku/python",
-  "repository": "https://github.com/vo0doo/voodoo-blog-development",
+  "repository": "https://github.com/vo0doo/voodoo-blog",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ],
   "env": {
